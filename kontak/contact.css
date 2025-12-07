@@ -1,0 +1,71 @@
+/* ================= GLOBAL STYLE ================= */
+body {
+    margin: 0;
+    font-family: 'Akira Expanded', sans-serif;
+    background: #0e0e0e;        /* Background sudah berfungsi */
+    padding: 20px 0;
+}
+
+/* ================= CONTACT CONTAINER ================= */
+.contact-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;         /* Biar form terlihat jelas */
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 35px;
+    color: #0d1326;
+}
+
+/* ================= FORM ================= */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0d1326;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+/* ================= SUBMIT BUTTON ================= */
+.contact-form button {
+    width: 160px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #0d1326;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #1e2a52;
+}

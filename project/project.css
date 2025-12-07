@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    background: #d9dee4;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar a.active {
+    color: #d43a3a;
+}
+
+.contact-btn {
+    background: #0d1326;
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+/* FORM WRAPPER */
+.form-wrapper {
+    background: #d9dee4;
+    padding: 40px;
+    text-align: center;
+}
+
+.form-wrapper h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.form label {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+/* ROW (2 columns) */
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row .form-group {
+    flex: 1;
+}
+
+/* TECHNOLOGY CHECKBOX */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.tech-grid label {
+    display: flex;
+    gap: 8px;
+    font-weight: normal;
+}
+
+/* FILE UPLOAD */
+.upload-box input {
+    padding: 10px;
+}
+
+/* SUBMIT */
+.submit-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 40px;
+    background: #0d1326;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #1a2038;
+}
+
+/* PROJECT TITLE */
+.project-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+/* PROJECT GRID */
+.project-grid {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.duration {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* ICONS */
+.icons {
+    margin-top: 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+/* BUTTONS */
+.card-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.card-buttons button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background: #0d1326;
+    color: white;
+    cursor: pointer;
+}
+
+.card-buttons .delete {
+    background: #b93434;
+}
