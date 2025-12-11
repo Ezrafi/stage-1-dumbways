@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contoh Halaman Bootstrap</title>
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  {{!-- <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">BrandSaya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Fitur</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-primary" href="#contact">Hubungi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> --}}
+
+  <!-- HERO -->
+  <header class="hero bg-gradient py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-5 fw-bold">Buat Halaman Profesional dengan Bootstrap</h1>
+          <p class="lead mb-4">Template sederhana untuk portfolio, landing page, atau proyek webmu. Mudah diubah
+            dan siap pakai.</p>
+          <a href="#projects" class="btn btn-outline-light btn-lg me-2">Lihat Proyek</a>
+          <a href="#contact" class="btn btn-light btn-lg">Kontak</a>
+        </div>
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <div class="card shadow-sm border-0">
+            <img src="https://picsum.photos/seed/bootstrap/600/350" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Desain Clean & Responsif</h5>
+              <p class="card-text small">Gambar placeholder dari Picsum. Ganti sesuai kebutuhan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="h3 fw-bold">Fitur Utama</h2>
+        <p class="text-muted">Komponen Bootstrap + CSS kecil untuk kustomisasi cepat.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Responsif</h5>
+              <p class="card-text">Tampilan rapi pada semua ukuran layar — mobile, tablet, dan desktop.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <small class="text-muted">Bootstrap 5</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Kustom Mudah</h5>
+              <p class="card-text">Ganti warna, font, atau tata letak dengan CSS ringan.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <small class="text-muted">CSS custom</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Komponen Siap Pakai</h5>
+              <p class="card-text">Navbar, cards, forms, modal — semua ada di Bootstrap.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <small class="text-muted">Plug & Play</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / GALLERY -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="mb-0">Proyek Terpilih</h3>
+        <a href="#" class="small text-decoration-none">Lihat semua →</a>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/p1/800/450" class="card-img-top" alt="proj1">
+            <div class="card-body">
+              <h5 class="card-title">Project A</h5>
+              <p class="card-text">Deskripsi singkat project A — fitur, teknologi, hasil.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <small class="text-muted">React • Bootstrap</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/p2/800/450" class="card-img-top" alt="proj2">
+            <div class="card-body">
+              <h5 class="card-title">Project B</h5>
+              <p class="card-text">Deskripsi singkat project B — design & implementasi.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <small class="text-muted">Node.js • Express</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://picsum.photos/seed/p3/800/450" class="card-img-top" alt="proj3">
+            <div class="card-body">
+              <h5 class="card-title">Project C</h5>
+              <p class="card-text">Deskripsi singkat project C — analisis data & visualisasi.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <small class="text-muted">BigQuery • Looker</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-4 p-md-5">
+              <h4 class="mb-3">Tinggalkan Pesan</h4>
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" placeholder="Nama lengkap" required>
+                  <div class="invalid-feedback">Nama wajib diisi.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Surel</label>
+                  <input type="email" class="form-control" id="email" placeholder="email@domain.com" required>
+                  <div class="invalid-feedback">Masukkan alamat email yang valid.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                  <div class="invalid-feedback">Pesan tidak boleh kosong.</div>
+                </div>
+
+                <div class="d-flex justify-content-end">
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <p class="text-center text-muted small mt-3">Akan ada notifikasi di console (contoh).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>&copy; <span id="year"></span> BrandSaya</div>
+      <div>
+        <small class="text-muted-light">Made with ♥ using Bootstrap</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Small JS: form validation & year -->
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // simple bootstrap validation
+    (function () {
+      'use strict'
+      const form = document.getElementById('contactForm')
+      form.addEventListener('submit', function (e) {
+        if (!form.checkValidity()) {
+          e.preventDefault()
+          e.stopPropagation()
+        } else {
+          e.preventDefault()
+          console.log('Form submitted:', {
+            name: form.name.value,
+            email: form.email.value,
+            message: form.message.value
+          })
+          // you can replace the console.log with real submit action (AJAX/fetch)
+          form.reset()
+          form.classList.remove('was-validated')
+          alert('Pesan terkirim! (cek console untuk demo)')
+        }
+        form.classList.add('was-validated')
+      }, false)
+    })()
+  </script>
+</body>
+</html>
