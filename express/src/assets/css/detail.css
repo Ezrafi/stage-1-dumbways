@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    /* background: #d9dee4; */
+    font-family: Arial, sans-serif;
+}
+/* FORM WRAPPER */
+.form-wrapper {
+    background: #d9dee4;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-wrapper h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.form label {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+/* ROW (2 columns) */
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row .form-group {
+    flex: 1;
+}
+
+/* TECHNOLOGY CHECKBOX */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.tech-grid label {
+    display: flex;
+    gap: 8px;
+    font-weight: normal;
+}
+
+/* FILE UPLOAD */
+.upload-box input {
+    padding: 10px;
+}
+
+/* SUBMIT */
+.submit-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 40px;
+    background: #0d1326;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #1a2038;
+    
+}
